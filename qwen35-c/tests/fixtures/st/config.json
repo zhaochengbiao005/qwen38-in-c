@@ -1,0 +1,33 @@
+{
+  "model_type": "qwen3_5",
+  "text_config": {
+    "num_hidden_layers": 4,
+    "hidden_size": 128,
+    "intermediate_size": 256,
+    "num_attention_heads": 4,
+    "num_key_value_heads": 2,
+    "head_dim": 32,
+    "vocab_size": 512,
+    "linear_num_key_heads": 2,
+    "linear_key_head_dim": 16,
+    "linear_num_value_heads": 4,
+    "linear_value_head_dim": 16,
+    "linear_conv_kernel_dim": 4,
+    "bos_token_id": 11,
+    "eos_token_id": 12,
+    "max_position_embeddings": 8192,
+    "partial_rotary_factor": 0.25,
+    "rms_norm_eps": 1e-06,
+    "rope_parameters": {
+      "rope_theta": 10000000.0,
+      "partial_rotary_factor": 0.25,
+      "rope_type": "default"
+    },
+    "layer_types": [
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention"
+    ]
+  }
+}

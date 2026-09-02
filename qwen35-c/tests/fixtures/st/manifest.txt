@@ -1,0 +1,4 @@
+model.language_model.layers.0.mlp.gate_proj.weight 256x128 F8_E4M3 1b43eabd
+model.language_model.layers.0.mlp.gate_proj.weight_scale_inv 2x1 BF16 e0edd857
+model.language_model.layers.0.input_layernorm.weight 128 BF16 20f8c517
+model.language_model.norm.weight 16 F32 9855c0d4

@@ -1,0 +1,72 @@
+[ref] imports 15.2s
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+[ref] meta construct + buffer re-init 1.1s
+[ref] layers-0.safetensors: 20 tensors 0.7s
+[ref] layers-1.safetensors: 20 tensors 0.6s
+[ref] layers-10.safetensors: 20 tensors 0.6s
+[ref] layers-11.safetensors: 18 tensors 0.4s
+[ref] layers-12.safetensors: 20 tensors 0.4s
+[ref] layers-13.safetensors: 20 tensors 0.4s
+[ref] layers-14.safetensors: 20 tensors 0.4s
+[ref] layers-15.safetensors: 18 tensors 0.4s
+[ref] layers-16.safetensors: 20 tensors 0.5s
+[ref] layers-17.safetensors: 20 tensors 0.5s
+[ref] layers-18.safetensors: 20 tensors 0.4s
+[ref] layers-19.safetensors: 18 tensors 0.4s
+[ref] layers-2.safetensors: 20 tensors 0.4s
+[ref] layers-20.safetensors: 20 tensors 0.4s
+[ref] layers-21.safetensors: 20 tensors 0.4s
+[ref] layers-22.safetensors: 20 tensors 0.4s
+[ref] layers-23.safetensors: 18 tensors 0.4s
+[ref] layers-24.safetensors: 20 tensors 0.5s
+[ref] layers-25.safetensors: 20 tensors 0.4s
+[ref] layers-26.safetensors: 20 tensors 0.4s
+[ref] layers-27.safetensors: 18 tensors 0.4s
+[ref] layers-28.safetensors: 20 tensors 0.4s
+[ref] layers-29.safetensors: 20 tensors 0.4s
+[ref] layers-3.safetensors: 18 tensors 0.4s
+[ref] layers-30.safetensors: 20 tensors 0.4s
+[ref] layers-31.safetensors: 18 tensors 0.4s
+[ref] layers-32.safetensors: 20 tensors 0.4s
+[ref] layers-33.safetensors: 20 tensors 0.4s
+[ref] layers-34.safetensors: 20 tensors 0.4s
+[ref] layers-35.safetensors: 18 tensors 0.4s
+[ref] layers-36.safetensors: 20 tensors 0.4s
+[ref] layers-37.safetensors: 20 tensors 0.4s
+[ref] layers-38.safetensors: 20 tensors 0.4s
+[ref] layers-39.safetensors: 18 tensors 0.4s
+[ref] layers-4.safetensors: 20 tensors 0.4s
+[ref] layers-40.safetensors: 20 tensors 0.4s
+[ref] layers-41.safetensors: 20 tensors 0.4s
+[ref] layers-42.safetensors: 20 tensors 0.4s
+[ref] layers-43.safetensors: 18 tensors 0.4s
+[ref] layers-44.safetensors: 20 tensors 0.4s
+[ref] layers-45.safetensors: 20 tensors 0.4s
+[ref] layers-46.safetensors: 20 tensors 0.4s
+[ref] layers-47.safetensors: 18 tensors 0.4s
+[ref] layers-48.safetensors: 20 tensors 0.4s
+[ref] layers-49.safetensors: 20 tensors 0.4s
+[ref] layers-5.safetensors: 20 tensors 0.4s
+[ref] layers-50.safetensors: 20 tensors 0.4s
+[ref] layers-51.safetensors: 18 tensors 0.5s
+[ref] layers-52.safetensors: 20 tensors 0.4s
+[ref] layers-53.safetensors: 20 tensors 0.4s
+[ref] layers-54.safetensors: 20 tensors 0.4s
+[ref] layers-55.safetensors: 18 tensors 0.4s
+[ref] layers-56.safetensors: 20 tensors 0.4s
+[ref] layers-57.safetensors: 20 tensors 0.4s
+[ref] layers-58.safetensors: 20 tensors 0.4s
+[ref] layers-59.safetensors: 18 tensors 0.4s
+[ref] layers-6.safetensors: 20 tensors 0.4s
+[ref] layers-60.safetensors: 20 tensors 0.4s
+[ref] layers-61.safetensors: 20 tensors 0.4s
+[ref] layers-62.safetensors: 20 tensors 0.4s
+[ref] layers-63.safetensors: 18 tensors 0.4s
+[ref] layers-7.safetensors: 18 tensors 0.5s
+[ref] layers-8.safetensors: 20 tensors 22.4s
+[ref] layers-9.safetensors: 20 tensors 45.7s
+[ref] mtp.safetensors: 22 tensors 0.0s
+[ref] outside.safetensors: 336 tensors 1.4s
+[ref] loaded in 95.7s, missing=[] (0)
+[ref] rows=12 vocab=248320 gen=[25701, 13, 198, 760, 6511, 314, 5440, 369]
+[ref] load 95.7s prefill 73.9s decode avg 44.73s/tok

@@ -1,0 +1,51 @@
+{
+ "hidden": 96,
+ "q_heads": 6,
+ "kv_heads": 2,
+ "head_dim": 64,
+ "rotary_dim": 16,
+ "theta": 10000000.0,
+ "eps": 1e-06,
+ "nt": 5,
+ "tol_atol": "1e-4",
+ "tol_rtol": "1e-3",
+ "files": [
+  "k_nw.bin",
+  "q_nw.bin",
+  "wk.sc",
+  "wk.w8",
+  "wo.sc",
+  "wo.w8",
+  "wq.sc",
+  "wq.w8",
+  "wv.sc",
+  "wv.w8",
+  "x.bin",
+  "yref.bin"
+ ],
+ "format": {
+  "w8": "fp8 e4m3fn row-major [rows, cols]",
+  "sc": "bf16 block scales [ceil(rows/128), ceil(cols/128)]",
+  "q_nw/k_nw": "f32 zero-centered rmsnorm weights [head_dim]",
+  "x": "f32 [nt, hidden]",
+  "yref": "f64 [nt, hidden]"
+ },
+ "weight_shapes": {
+  "wq": [
+   768,
+   96
+  ],
+  "wk": [
+   128,
+   96
+  ],
+  "wv": [
+   128,
+   96
+  ],
+  "wo": [
+   96,
+   384
+  ]
+ }
+}

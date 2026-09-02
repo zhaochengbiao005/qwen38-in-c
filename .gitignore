@@ -1,0 +1,20 @@
+# model weights (29 GiB official FP8 checkpoint) — never commit
+/Qwen3.8-27B-FP8/
+
+# build outputs
+qwen35-c/build/
+*.exe
+*.pdb
+*.obj
+*.lib
+*.dll
+
+# runtime-generated debug dumps (tools/dump_real.c outputs)
+eng_logits.bin
+eng_ids.json
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

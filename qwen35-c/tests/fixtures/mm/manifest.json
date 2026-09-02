@@ -1,0 +1,74 @@
+[
+ {
+  "name": "tiny_fp8",
+  "rows": 3,
+  "cols": 5,
+  "fp8": true,
+  "sr": 1,
+  "sc": 1,
+  "tol": 0.0005
+ },
+ {
+  "name": "edge_fp8",
+  "rows": 129,
+  "cols": 129,
+  "fp8": true,
+  "sr": 2,
+  "sc": 2,
+  "tol": 0.0005
+ },
+ {
+  "name": "exact1_fp8",
+  "rows": 128,
+  "cols": 128,
+  "fp8": true,
+  "sr": 1,
+  "sc": 1,
+  "tol": 0.0005
+ },
+ {
+  "name": "wide_fp8",
+  "rows": 16,
+  "cols": 5120,
+  "fp8": true,
+  "sr": 1,
+  "sc": 40,
+  "tol": 0.0005
+ },
+ {
+  "name": "deep_fp8",
+  "rows": 5120,
+  "cols": 16,
+  "fp8": true,
+  "sr": 40,
+  "sc": 1,
+  "tol": 0.0005
+ },
+ {
+  "name": "qkvlike_fp8",
+  "rows": 10240,
+  "cols": 5120,
+  "fp8": true,
+  "sr": 80,
+  "sc": 40,
+  "tol": 0.0005
+ },
+ {
+  "name": "mid_bf16",
+  "rows": 256,
+  "cols": 128,
+  "fp8": false,
+  "sr": 0,
+  "sc": 0,
+  "tol": 0.0005
+ },
+ {
+  "name": "deep_bf16",
+  "rows": 2048,
+  "cols": 5120,
+  "fp8": false,
+  "sr": 0,
+  "sc": 0,
+  "tol": 0.0005
+ }
+]

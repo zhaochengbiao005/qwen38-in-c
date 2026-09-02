@@ -1,0 +1,17 @@
+# normalize all text files to LF in repo and working tree
+* text=auto eol=lf
+
+# keep CRLF where Windows requires it
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# binaries: never normalize
+*.bin binary
+*.w8 binary
+*.w16 binary
+*.exe binary
+*.dll binary
+*.lib binary
+*.pdb binary
+*.png binary
+*.jpg binary

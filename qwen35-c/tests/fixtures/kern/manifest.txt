@@ -1,0 +1,11 @@
+# ticket-16 kernel fixtures; see gen_kern_fixtures.py
+rmsnorm_5120 kernel=rmsnorm atol=2e-6 rtol=2e-6 crc32=2d410bbc in=rmsnorm_5120_in0.bin,rmsnorm_5120_in1.bin out=rmsnorm_5120_out.bin n=5120 eps=1e-06
+silu_17408 kernel=silu atol=1e-6 rtol=1e-5 crc32=7bbcb992 in=silu_17408_in0.bin out=silu_17408_out.bin n=17408
+swiglu_17408 kernel=swiglu atol=1e-6 rtol=1e-5 crc32=f8082bc4 in=swiglu_17408_in0.bin,swiglu_17408_in1.bin out=swiglu_17408_out.bin n=17408
+qknorm_24x256 kernel=qknorm atol=2e-6 rtol=2e-6 crc32=a2c43944 in=qknorm_24x256_in0.bin,qknorm_24x256_in1.bin out=qknorm_24x256_out.bin heads=24 head_dim=256 eps=1e-06
+rope_pos7 kernel=rope atol=2e-6 rtol=2e-5 crc32=82fbdf78 in=rope_pos7_in0.bin out=rope_pos7_out.bin heads=24 head_dim=256 rotary_dim=64 pos=7 theta=1e7
+rope_pos2025 kernel=rope atol=2e-6 rtol=2e-5 crc32=87ed3de9 in=rope_pos2025_in0.bin out=rope_pos2025_out.bin heads=24 head_dim=256 rotary_dim=64 pos=2025 theta=1e7
+attn_gate_6144 kernel=attn_gate atol=1e-6 rtol=1e-5 crc32=d0a4b534 in=attn_gate_6144_in0.bin,attn_gate_6144_in1.bin out=attn_gate_6144_out.bin n=6144
+softmax_1 kernel=softmax atol=1e-6 rtol=1e-5 crc32=aca16a6a in=softmax_1_in0.bin out=softmax_1_out.bin n=1
+softmax_128 kernel=softmax atol=1e-6 rtol=1e-5 crc32=aaec7806 in=softmax_128_in0.bin out=softmax_128_out.bin n=128
+softmax_1023 kernel=softmax atol=1e-6 rtol=1e-5 crc32=9a1df5bb in=softmax_1023_in0.bin out=softmax_1023_out.bin n=1023

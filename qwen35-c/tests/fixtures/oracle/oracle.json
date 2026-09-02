@@ -1,0 +1,27 @@
+{
+ "prompt": [
+  5,
+  42,
+  7,
+  99,
+  13,
+  201
+ ],
+ "gen_ids": [
+  215,
+  215,
+  49,
+  144,
+  24,
+  157,
+  197,
+  18
+ ],
+ "tf_atol": 0.001,
+ "tf_rtol": 0.01,
+ "vocab": 256,
+ "layers": 8,
+ "gen": 8,
+ "eos_ignored": true,
+ "notes": "f64 reference over stored quantized values (research/qwen35-numspec.md); engine f32 must stay within declared tolerance and match ids exactly"
+}
